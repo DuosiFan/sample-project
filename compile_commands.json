@@ -2,9 +2,11 @@
   {
     "arguments": [
       "/usr/bin/clang",
+      "-I./include",
+      "-g",
       "-Wall",
-      "-std=c17",
-      "-Iinclude",
+      "-Wextra",
+      "-O0",
       "-c",
       "-o",
       "build/.obj/field.o",
@@ -17,9 +19,11 @@
   {
     "arguments": [
       "/usr/bin/clang",
+      "-I./include",
+      "-g",
       "-Wall",
-      "-std=c17",
-      "-Iinclude",
+      "-Wextra",
+      "-O0",
       "-c",
       "-o",
       "build/.obj/main.o",
