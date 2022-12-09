@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-std=c17",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/.obj/field.o",
+      "src/field.c"
+    ],
+    "directory": "/home/duosifan/Desktop/sample-project",
+    "file": "/home/duosifan/Desktop/sample-project/src/field.c",
+    "output": "/home/duosifan/Desktop/sample-project/build/.obj/field.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-Wall",
+      "-std=c17",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/.obj/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/duosifan/Desktop/sample-project",
+    "file": "/home/duosifan/Desktop/sample-project/src/main.c",
+    "output": "/home/duosifan/Desktop/sample-project/build/.obj/main.o"
+  }
+]
