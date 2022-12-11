@@ -34,6 +34,7 @@ CFLAGS := -g -Wall -Wextra -O0
 # -MMD -MP: generate header dependency automatically
 INCPARAM := $(addprefix -I, $(INCDIR))
 CPPFLAGS := $(INCPARAM) -MMD -MP
+
 # link flags
 LDFLAGS :=
 LDLIBS := -lm
