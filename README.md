@@ -7,6 +7,11 @@ make
 make install
 
 ## Shared library
+### How to find if a library is installed via the package manager
+For example, the FFTW3 library
+---------------------------------------------------------------
+ldconfig -p | grep libfftw3
+---------------------------------------------------------------
 
 LD_DEBUG=<opts>
 
