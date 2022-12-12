@@ -30,9 +30,20 @@ help: display this help message and exit
 C-u M-!: execute a shell command and redirect the output to current buffer
 
 ## Setup a development enviroment in a fresh installed ubuntu 22.04 (use apt not snap)
-  1. essential FOSS packages to install (use apt install): git, clang (with --install-suggests), clang-tools (clang-check), clang-format
+  1. essential FOSS packages to install (use apt install): git, clang (with --install-suggests), clang-tools (clang-check), clang-format, xclip
   2. configure git locally and connect github
+      
+      git config --global user.name "Duosi Fan"
+      
+      git config --global user.email "timothy12041053@gmail.com"
   
+      ssh-keygen -t ed25519 -C "timothy12041053@gmail.com"
   
+      eval "$(ssh-agent -s)"
+  
+      ssh-add ~/.ssh/id_ed25519
+  
+      cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard
+      
   Some tips of apt
       * apt -s install <package name>: simulate the install but do nothing
